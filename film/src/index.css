@@ -79,6 +79,26 @@ body {
     direction: rtl;
 }
 
+.btn-mz{
+    font-size: 14px;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: none;
+    background: var(--theme-color);
+    cursor: pointer;
+    overflow: hidden;
+    vertical-align: middle;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    z-index: 1;
+}
+
+.btn-mz:hover{
+    background: var(--theme2-color);
+}
 
 @media (min-width: 340px) {
 

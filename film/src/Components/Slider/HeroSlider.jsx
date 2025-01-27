@@ -13,7 +13,7 @@ import 'swiper/css/scrollbar';
 export default function HeroSlider() {
     return (
         <>
-            <div className='container'>
+            <div>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                     spaceBetween={50}
