@@ -1,0 +1,40 @@
+.choose{
+    margin-top: 3rem;
+    background: #131722;
+    padding: 6rem 0;
+}
+
+.choose__logo__box-img{
+    border: 3px solid var(--theme-color);
+    border-radius: 150px 50px 150px 150px;
+}
+.choose__caption{
+    width: 77rem;
+    margin-left: 2rem;
+}
+
+.choose__logo__img{
+    padding: 10px;
+    border-radius: 150px 50px 150px 150px;
+}
+
+.choose__caption__Description{
+    color: var(--body-text-color);
+}
+
+.platform__caption__Description{
+    color: var(--body-text-color);
+}
+
+.platform__box-icon{
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    background: aqua;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 2rem;
+    border: 3px solid var(--theme-color);
+}
