@@ -107,6 +107,25 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className='BoxPricing'>
+        <div className="container">
+          <div className='BoxPricing__cont'>
+            <div className='BoxPricing__top text-center mt-5'>
+              <p className='boxpricing__title fw-bold'>پلن های ما</p>
+              <h3 className='display-4 fw-bold'>  پلن اشتراک خود را <span className='boxpricing__choice'>انتخاب کنید</span>  </h3>
+            </div>
+            <div className='d-flex mt-5 gap-5 flex-wrap justify-content-between mt-5'>
+              <BoxPricing />
+              <BoxPricing />
+              <BoxPricing />
+              <BoxPricing />
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </>
   )
 }
