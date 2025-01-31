@@ -1,4 +1,5 @@
 import React from 'react'
+import './HeroSlider.css'
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
@@ -25,10 +26,10 @@ export default function HeroSlider() {
                     }}
                     navigation
                     pagination={{ clickable: true }}
-                    className='rounded-4'
+                    className='heroslier__swiper rounded-4'
                 >
-                    <SwiperSlide><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
-                    <SwiperSlide><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide className='heroslier__swiper__item'><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide><img width={'100%'} height={'200px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
                     <SwiperSlide><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
                     <SwiperSlide><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
                     <SwiperSlide><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>

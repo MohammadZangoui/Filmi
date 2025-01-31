@@ -5,6 +5,7 @@ import BoxFilm from '../../Components/BoxFilm/BoxFilm'
 import { LuMonitorPlay } from "react-icons/lu";
 import { BsCollectionPlay } from "react-icons/bs";
 import BoxPricing from '../../Components/BoxPricing/BoxPricing';
+import NewFrends from '../../Components/NewFrends/NewFrends';
 export default function Home() {
   return (
     <>
@@ -125,7 +126,7 @@ export default function Home() {
         </div>
       </div>
 
-
+    <NewFrends />
     </>
   )
 }
