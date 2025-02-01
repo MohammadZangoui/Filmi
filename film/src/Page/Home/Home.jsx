@@ -6,6 +6,7 @@ import { LuMonitorPlay } from "react-icons/lu";
 import { BsCollectionPlay } from "react-icons/bs";
 import BoxPricing from '../../Components/BoxPricing/BoxPricing';
 import NewFrends from '../../Components/NewFrends/NewFrends';
+import Copyright from '../../Components/Copyright/Copyright';
 export default function Home() {
   return (
     <>

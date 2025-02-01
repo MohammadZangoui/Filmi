@@ -1,0 +1,19 @@
+.copyright{
+    background: #131722;
+    padding: .8rem 0;
+}
+
+.copyright__item{
+    color: var(--theme-color);
+    width: 4rem;
+    height: 4rem;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright__list{
+    margin: 0;
+}
