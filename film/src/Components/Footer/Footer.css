@@ -2,7 +2,8 @@
     margin-top: 1rem;
     position: relative;
 }
-.footer__list{
+.footer__list__caption{
+    color: var(--theme-color);
 }
 .footer__list-box__item-link::before{
     content: '';
@@ -13,6 +14,10 @@
     background: var(--theme-color);
     right: -1.9rem;
     top: 14px;
+}
+
+.footer__list-box__item-link:hover:before{
+    width: 1.1rem;
 }
 
 .footer__list-box__item-link{
@@ -28,9 +33,6 @@
     margin-right: 6rem;
 }
 
-.footer__left__Button{
-    
-}
 
 .footer__left__input{
     outline: 1px solid var(--theme-color);

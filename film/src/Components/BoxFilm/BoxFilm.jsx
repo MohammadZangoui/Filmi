@@ -7,7 +7,7 @@ export default function BoxFilm() {
       <div className='boxfilm__item'>
         <div className='boxfilm__top overflow-hidden position-relative rounded-4'>
           <img className='boxfilm__img w-100 h-100 ' src="https://devhostco.xyz/moplay/images/s1.jpg" alt="" />
-          <span className='boxfilm__play'><FaPlay className='boxfilm__icon' size={'4rem'} /></span>
+          <span className='boxfilm__play'><FaPlay className='boxfilm__icon' size={'5rem'} /></span>
         </div>
         <div className='boxfilm__bottom'>
           <p className='fw-bold'> لوکی </p>

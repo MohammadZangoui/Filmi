@@ -12,6 +12,7 @@ export default function Footer() {
                     </div>
                     <div className='footer__center d-flex'>
                         <div className='footer__list-box'>
+                            <p className='fw-bold footer__list__caption'> موپلی  </p>
                             <ul className='footer__list'>
                                 <li className='footer__list__item'><a className='footer__list-box__item-link text-decoration-none' href=""> درباره ما </a></li>
                                 <li className='footer__list__item'><a className='footer__list-box__item-link text-decoration-none' href=""> شاهدات </a></li>
@@ -22,6 +23,7 @@ export default function Footer() {
                         </div>
 
                         <div className='footer__list-box'>
+                            <p className='fw-bold footer__list__caption'> ژانر </p>
                             <ul className='footer__list'>
                                 <li className='footer__list__item'><a className='footer__list-box__item-link text-decoration-none' href=""> اکشن </a></li>
                                 <li className='footer__list__item'><a className='footer__list-box__item-link text-decoration-none' href=""> بیوگرافی </a></li>
@@ -32,6 +34,7 @@ export default function Footer() {
                         </div>
 
                         <div className='footer__list-box'>
+                            <p className='fw-bold footer__list__caption'> پشتیبانی </p>
                             <ul className='footer__list'>
                                 <li className='footer__list__item'><a className='footer__list-box__item-link text-decoration-none' href=""> مرکز راهنمایی </a></li>
                                 <li className='footer__list__item'><a className='footer__list-box__item-link text-decoration-none' href="">  حساب من  </a></li>
