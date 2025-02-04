@@ -1,0 +1,51 @@
+.boxfilm__img {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.boxfilm__item {
+    width: 20.5rem;
+    overflow: hidden;
+}
+
+.boxfilm {
+    gap: 2rem;
+    width: 21rem;
+    height: 100%;
+}
+
+
+.boxfilm__top:hover .boxfilm__play{
+    display: block;
+}
+
+
+/* .boxfilm__img:hover{
+    display: block;
+    transform: scale(1.1);
+} */
+
+.boxfilm__icon:hover, .boxfilm__img:hover {
+    display: block;
+    transform: scale(1.1);
+}
+
+.boxfilm__play{
+    display: none;
+    position: absolute;
+    transition: all 200ms;
+    border-radius: 50%;
+    top: 11rem;
+    left: 8.5rem;
+}
+
+.boxfilm__icon ,.film-caption__genre{
+    color: var(--theme-color);
+}
+
+.film-caption__time{
+    color: var(--body-text-color);
+}

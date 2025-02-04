@@ -28,12 +28,9 @@ export default function HeroSlider() {
                     pagination={{ clickable: true }}
                     className='heroslier__swiper rounded-4'
                 >
-                    <SwiperSlide className='heroslier__swiper__item'><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
-                    <SwiperSlide><img width={'100%'} height={'200px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
-                    <SwiperSlide><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
-                    <SwiperSlide><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
-                    <SwiperSlide><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
-                    <SwiperSlide><img width={'100%'} height={'500px'} src="https://daily.kellogg.edu/wp-content/uploads/2018/08/film-interpretation.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide><img width={'100%'} height={'500px'} src="./public/img/slider/s1.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide><img width={'100%'} height={'500px'} src="./public/img/slider/slider-2.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide><img width={'100%'} height={'500px'} src="./public/img/slider/slider-3.jpg" alt="" /></SwiperSlide>
                 </Swiper>
             </div>
         </>

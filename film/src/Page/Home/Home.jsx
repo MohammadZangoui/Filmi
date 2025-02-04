@@ -1,12 +1,15 @@
 import React from 'react'
 import "./Home.css"
 import HeroSlider from '../../Components/Slider/HeroSlider'
+import OffersFilms from '../../Components/OfferFilms/OfferFilms'
 import BoxFilm from '../../Components/BoxFilm/BoxFilm'
+import NewFilm from '../../Components/NewFilm/NewFilm'
 import { LuMonitorPlay } from "react-icons/lu";
 import { BsCollectionPlay } from "react-icons/bs";
 import BoxPricing from '../../Components/BoxPricing/BoxPricing';
 import NewFrends from '../../Components/NewFrends/NewFrends';
 import Copyright from '../../Components/Copyright/Copyright';
+import FullPlayFilms from '../../Components/FullPlayFilms/FullPlayFilms'
 export default function Home() {
   return (
     <>
@@ -18,16 +21,7 @@ export default function Home() {
             <a className='btn-mz text-decoration-none'> مشاهده همه </a>
           </div>
           <div className='gap-4 d-flex flex-wrap justify-content-between '>
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
+            <OffersFilms/>
           </div>
         </div>
         <div className='new-film'>
@@ -36,16 +30,7 @@ export default function Home() {
             <a className='btn-mz text-decoration-none'> مشاهده همه </a>
           </div>
           <div className='gap-4 d-flex flex-wrap justify-content-between '>
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
+              <NewFilm />
           </div>
         </div>
         <div className='new-film'>
@@ -54,16 +39,7 @@ export default function Home() {
             <a className='btn-mz text-decoration-none'> مشاهده همه </a>
           </div>
           <div className='gap-4 d-flex flex-wrap justify-content-between '>
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
-            <BoxFilm />
+            <FullPlayFilms />
           </div>
         </div>
       </div>

@@ -5,8 +5,7 @@ import './Navbar.css'
 
 export default function Navbar() {
     const [ fix, setFix ] = useState(false)
-    console.log(fix);
-    
+
     const fixed = () => {
         if( window.scrollY >= 100 ) {
             setFix(true)

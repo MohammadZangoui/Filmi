@@ -3,17 +3,21 @@ import { useEffect } from 'react'
 import { useRoutes } from 'react-router-dom'
 import routers from './router'
 import Navbar from './Components/Navber/Navbar'
-import { addTodoListAdd } from './Redux/HomeSlier/HomeSlier'
+import { addNewFilms } from './Redux/Store/NewFilms'
 import { useDispatch } from 'react-redux'
 import Footer from './Components/Footer/Footer'
 import Copyright from './Components/Copyright/Copyright'
+import { addFilmOffers } from './Redux/Store/OfferFilm'
+import { addFullPlayFilms } from './Redux/Store/FullPlayFilms'
 function App() {
   let ApiKey = '&apy_key=56d90e76db8349e3250c8d139b077694'
   const routs = useRoutes(routers)
   const dispach = useDispatch()
-  console.log(dispach);
+
   useEffect(() => {
-    dispach(addTodoListAdd('https://api.themoviedb.org/3/discover/movie?apy_key=56d90e76db8349e3250c8d139b077694'))
+    dispach(addFilmOffers('https://moviesapi.ir/api/v1/movies?page=1'))
+    dispach(addNewFilms('https://moviesapi.ir/api/v1/movies?page=2'))
+    dispach(addFullPlayFilms('https://moviesapi.ir/api/v1/movies?page=3'))
   }, [])
   return (
     <>

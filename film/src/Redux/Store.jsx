@@ -1,8 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit'
-import homeslire from './HomeSlier/HomeSlier'
+import newFilmsReducer from './Store/NewFilms'
+import OffersFilmsReducer from './Store/OfferFilm'
+import fullPlayFilmsReducer from './Store/FullPlayFilms'
 const store = configureStore({
   reducer: {
-    HomeSlier : homeslire
+    newFilm : newFilmsReducer,
+    offerFilm : OffersFilmsReducer,
+    fullPlay: fullPlayFilmsReducer
   },
 })
 
