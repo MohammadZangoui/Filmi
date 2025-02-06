@@ -1,18 +1,21 @@
 import React, { useState } from 'react'
 import { RiArrowDropDownLine } from "react-icons/ri";
+import { FaSearch } from "react-icons/fa";
 import { FaArrowRightToBracket } from "react-icons/fa6";
 import './Navbar.css'
 
 export default function Navbar() {
-    const [ fix, setFix ] = useState(false)
+    const [fix, setFix] = useState(false)
+    const [open, setOpen] = useState(false)
 
     const fixed = () => {
-        if( window.scrollY >= 100 ) {
+        if (window.scrollY >= 80) {
             setFix(true)
         } else {
             setFix(false)
         }
     }
+
     window.addEventListener('scroll', fixed)
     return (
         <div className={fix ? 'navbar navbar__activ-top' : 'navbar'} >
@@ -139,7 +142,11 @@ export default function Navbar() {
                         </ul>
                     </div>
                     <div className='navbar__btn'>
+                        <FaSearch className='ms-5' onClick={() => setOpen(!open)} size={'2rem'} />
                         <a className='navbar__btn-text text-decoration-none' href="#" ><FaArrowRightToBracket /> ثبت نام </a>
+                    </div>
+                    <div className={!open ? 'box-search' : "box-search box-search__open"}>
+                        <input className='box-search__input box-search__open' type="search" placeholder='دنبال چیز خاص میگردید؟' />
                     </div>
                 </div>
             </div>

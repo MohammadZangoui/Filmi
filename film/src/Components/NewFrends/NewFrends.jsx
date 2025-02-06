@@ -22,15 +22,15 @@ export default function NewFrends() {
                 </div>
                 <div>
                     <Swiper
-                    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-                    spaceBetween={50}
-                    slidesPerView={5}
-                    loop={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
-                    className='mt-5'
+                        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                        spaceBetween={50}
+                        slidesPerView={5}
+                        loop={true}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
+                        className='mt-5'
                     >
                         <SwiperSlide><a href="#"><img width={'171px'} src="./public/img/BestFrends/02.png" alt="" /></a></SwiperSlide>
                         <SwiperSlide><a href="#"><img width={'171px'} src="./public/img/BestFrends/03.png" alt="" /></a></SwiperSlide>

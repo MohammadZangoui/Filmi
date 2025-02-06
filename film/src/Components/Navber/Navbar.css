@@ -1,8 +1,9 @@
-.navbar{
+.navbar {
     background: var(--body-bg);
     z-index: 100;
 }
-.navbar__btn-text{
+
+.navbar__btn-text {
     position: relative;
     font-size: 14px;
     color: var(--white);
@@ -20,11 +21,11 @@
     z-index: 1;
 }
 
-.navbar__btn-text:hover{
+.navbar__btn-text:hover {
     background: var(--theme2-color);
 }
 
-.navbar__btn-text::before{
+.navbar__btn-text::before {
     content: "";
     position: absolute;
     height: 300px;
@@ -38,7 +39,7 @@
     z-index: -1;
 }
 
-.navbar-sub{
+.navbar-sub {
     /* background: var(--list-bg); */
     transition: all 200ms ease-in;
     display: none;
@@ -48,17 +49,17 @@
     padding: 2rem;
 }
 
-.navbar-sub__item{
+.navbar-sub__item {
     margin-bottom: 1rem;
     position: relative;
 }
 
-.navbar-sub__link{
+.navbar-sub__link {
     color: var(--white);
     transition: all 200ms;
 }
 
-.navbar-sub__item::after{
+.navbar-sub__item::after {
     content: '';
     display: none;
     position: absolute;
@@ -70,35 +71,66 @@
     border-radius: 50%;
 }
 
-.navbar-sub__link:hover, .navbar-sub__item:hover::after{
+.navbar-sub__link:hover,
+.navbar-sub__item:hover::after {
     color: var(--theme-color);
     display: block;
 }
 
-.navbar__item:hover .navbar-sub{
+.navbar__item:hover .navbar-sub {
     display: block;
 }
 
-.navbar__item__link{
+.navbar__item__link {
     color: var(--white);
     transition: all 150ms ease-in;
 }
-.navbar__item__link:hover{
+
+.navbar__item__link:hover {
     color: var(--theme-color);
 }
 
-.navbar__activ{
+.navbar__activ {
     color: var(--theme-color);
 }
-.navbar__item__sub-box{
+
+.navbar__item__sub-box {
     background: var(--list-bg);
     z-index: 100;
     position: absolute;
 }
 
-.navbar__activ-top{
+.navbar__activ-top {
     width: 100%;
     position: fixed !important;
-    animation: slide-down 3ms ;
+    animation: slide-down 3ms;
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.85);
+}
+
+.box-search__input {
+    outline: 1px solid var(--body-text-color);
+    border: none;
+    padding: 1rem;
+    color: var(--white);
+    background: #131722;
+    border-radius: 1rem;
+}
+
+.box-search {
+    position: absolute;
+    top: 12rem;
+    left: 20rem;
+    background: #131722;
+    padding: 1rem;
+    opacity: 0;
+    transition: 200ms;
+    visibility: hidden;
+    border-radius: 1rem;
+}
+
+.box-search__open {
+    visibility: visible;
+    opacity: 1;
+    top: 7.7rem;
+
 }

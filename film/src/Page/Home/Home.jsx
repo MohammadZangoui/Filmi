@@ -3,6 +3,7 @@ import "./Home.css"
 import HeroSlider from '../../Components/Slider/HeroSlider'
 import OffersFilms from '../../Components/OfferFilms/OfferFilms'
 import BoxFilm from '../../Components/BoxFilm/BoxFilm'
+import { FaAnglesLeft } from "react-icons/fa6";
 import NewFilm from '../../Components/NewFilm/NewFilm'
 import { LuMonitorPlay } from "react-icons/lu";
 import { BsCollectionPlay } from "react-icons/bs";
@@ -18,7 +19,7 @@ export default function Home() {
         <div className='Suggestions'>
           <div className='py-5 d-flex justify-content-between'>
             <h3 className='h1 fw-bold'> پیشنهادات </h3>
-            <a className='btn-mz text-decoration-none'> مشاهده همه </a>
+            <a className='btn-mz text-decoration-none d-flex align-items-center justify-content-center'> مشاهده همه <FaAnglesLeft /></a>
           </div>
           <div className='gap-4 d-flex flex-wrap justify-content-between '>
             <OffersFilms/>
@@ -27,7 +28,7 @@ export default function Home() {
         <div className='new-film'>
           <div className='py-5 d-flex justify-content-between'>
             <h3 className='h1 fw-bold'> جدیدترین فیلم ها </h3>
-            <a className='btn-mz text-decoration-none'> مشاهده همه </a>
+            <a className='btn-mz text-decoration-none d-flex align-items-center justify-content-center'> مشاهده همه <FaAnglesLeft /></a>
           </div>
           <div className='gap-4 d-flex flex-wrap justify-content-between '>
               <NewFilm />
@@ -36,7 +37,7 @@ export default function Home() {
         <div className='new-film'>
           <div className='py-5 d-flex justify-content-between'>
             <h3 className='h1 fw-bold'> فیلم های پر بازدید </h3>
-            <a className='btn-mz text-decoration-none'> مشاهده همه </a>
+            <a className='btn-mz text-decoration-none d-flex align-items-center justify-content-center'> مشاهده همه <FaAnglesLeft /></a>
           </div>
           <div className='gap-4 d-flex flex-wrap justify-content-between '>
             <FullPlayFilms />

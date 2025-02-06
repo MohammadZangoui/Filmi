@@ -1,9 +1,10 @@
-.newfrends{
+.newfrends {
     margin-top: 3rem;
     background: #131722;
     padding: 3rem 0;
 }
 
-.newfrends__title, .newfrends__captian-span{
+.newfrends__title,
+.newfrends__captian-span {
     color: var(--theme-color);
 }
