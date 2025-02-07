@@ -1,0 +1,19 @@
+.CommentsBox{
+    padding: 3rem;
+    background: #131722;
+    margin-top: 3rem;
+}
+
+.CommentsBox__img{
+    border-radius: 50%;
+}
+
+.CommentsBox__doc{
+    color: var(--theme-color);
+}
+
+.CommentsBox__icon{
+    padding: 1rem;
+    border: 1px solid var(--theme-color);
+    border-radius: 50%;
+}

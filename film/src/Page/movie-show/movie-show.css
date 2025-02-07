@@ -1,0 +1,19 @@
+
+.movie__list{
+    color: var(--body-text-color);
+    gap: 1rem;
+}
+
+.movie__item{
+    padding: .5rem 2rem;
+    border: 1px solid var(--theme-color);
+    border-radius: 20rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie__eye__box{
+    color: var(--body-text-color);
+}

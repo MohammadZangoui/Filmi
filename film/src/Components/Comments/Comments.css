@@ -1,0 +1,8 @@
+.comments__title{
+    color: var(--theme-color);
+}
+
+.comments__loading{
+    width: 14rem;
+    margin: 0 auto;
+}

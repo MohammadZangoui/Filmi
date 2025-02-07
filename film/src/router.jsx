@@ -1,9 +1,9 @@
 import Home from "./Page/Home/Home"
-import Preview from "./Page/Preview/Preview"
+import Movieshow from "./Page/movie-show/movie-show"
 
 const routers = [
     {path: '/', element: <Home/>},
-    {path: '/Preview', element: <Preview />}
+    {path: '/movie-show', element: <Movieshow />}
 ]
 
 export default routers

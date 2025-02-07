@@ -3,7 +3,7 @@ import './Footer.css'
 import { FiSend } from "react-icons/fi";
 export default function Footer() {
     return (
-        <div className='footer'>
+        <div className='footer mt-4'>
             <div className='container'>
                 <div className="footer__box d-flex justify-content-between mt-5">
                     <div className='footer__right'>
