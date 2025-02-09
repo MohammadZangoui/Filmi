@@ -30,7 +30,7 @@
 }
 
 .footer__list-box{
-    margin-right: 6rem;
+    margin-right: 5rem;
 }
 
 
@@ -45,4 +45,14 @@
 
 .footer__title{
     font-size: 5rem;
+}
+
+@media screen and (max-width: 670px) {
+    .footer__right{
+        width: 100%;
+        text-align: center;
+    }
+    .footer__left{
+        width: 100%;
+    }
 }

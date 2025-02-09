@@ -10,8 +10,8 @@ export default function BoxFilm() {
     return (
         <>
             {selector.map(data => (
-                <Link className='text-decoration-none' to={'/movie-show'}>
-                    <div key={data.id} className='newfilms'>
+                <div key={data.id} className='newfilms'>
+                    <Link className=' text-decoration-none' to={'/movie-show'}>
                         <div className='newfilms__item'>
                             <div className='newfilms__top overflow-hidden position-relative rounded-4'>
                                 <img className='newfilms__img w-100 h-100 ' src={data.poster} alt="poster" />
@@ -26,8 +26,8 @@ export default function BoxFilm() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </Link>
+                    </Link>
+                </div>
             ))}
         </>
     )

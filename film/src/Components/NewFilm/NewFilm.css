@@ -2,11 +2,11 @@
     gap: 2rem;
     width: 21rem;
     height: 100%;
+    /* flex-grow: 1; */
     position: relative;
 }
 
 .newfilms__item {
-    width: 20.5rem;
     overflow: hidden;
 }
 
@@ -56,4 +56,20 @@
     height: 2rem;
     left: 1rem;
     top: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .newfilms{
+        flex-grow: 1;
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .newfilms{
+        width: 14rem;
+    }
+    .newfilms__play{
+        display: none;
+    }
 }

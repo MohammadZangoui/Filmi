@@ -10,8 +10,8 @@ export default function FullPlayFilms() {
         <>
             {
                 selector.map(data => (
-                    <Link className='text-decoration-none' to={'/movie-show'}>
-                        <div key={data.id} className='fullfilms'>
+                    <div key={data.id} className='fullfilms'>
+                        <Link className='text-decoration-none' to={'/movie-show'}>
                             <div className='fullfilms__item'>
                                 <div className='fullfilms__top overflow-hidden position-relative rounded-4'>
                                     <img className='fullfilms__img w-100 h-100 ' src={data.poster} alt="poster" />
@@ -26,8 +26,8 @@ export default function FullPlayFilms() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Link>
+                        </Link>
+                    </div>
                 ))
             }
         </>

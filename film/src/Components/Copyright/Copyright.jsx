@@ -9,7 +9,7 @@ export default function Copyright() {
     return (
         <div className='copyright mt-5'>
             <div className='container'>
-                <div className='d-flex justify-content-between align-items-center'>
+                <div className='d-flex justify-content-between flex-wrap align-items-center'>
                     <div className='fw-bold'>© حق کلی و رایت 2025 همه حقوق سایت. </div>
                     <div>
                         <ul className='copyright__list  d-flex'>

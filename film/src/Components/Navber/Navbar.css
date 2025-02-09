@@ -119,7 +119,7 @@
 .box-search {
     position: absolute;
     top: 12rem;
-    left: 20rem;
+    left: 5rem;
     background: #131722;
     padding: 1rem;
     opacity: 0;
@@ -128,9 +128,37 @@
     border-radius: 1rem;
 }
 
+.mobileicon{
+    display: none;
+}
+
 .box-search__open {
     visibility: visible;
     opacity: 1;
     top: 7.7rem;
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+@media screen and (max-width: 769px) {
+
+}
+@media screen and (max-width: 991px) {
+    .navbar__btn-text{
+        display: none;
+    }
+    .navbar__list{
+        display: none;
+    }
+    .mobileicon{
+        display: block;
+    }
+    .navbar__btn{
+        display: flex;
+    }
+}
+@media screen and (max-width: 1200px) {
 
 }

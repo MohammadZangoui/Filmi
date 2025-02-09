@@ -22,9 +22,23 @@ export default function NewFrends() {
                 </div>
                 <div>
                     <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                        // modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                         spaceBetween={50}
                         slidesPerView={5}
+                        breakpoints={{
+                            0: {
+                                slidesPerView: 2
+                            },
+                            460: {
+                                slidesPerView: 2
+                            },
+                            768: {
+                                slidesPerView: 4
+                            },
+                            900: {
+                                slidesPerView: 5
+                            }
+                        }}
                         loop={true}
                         autoplay={{
                             delay: 2500,

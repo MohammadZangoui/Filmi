@@ -5,12 +5,12 @@ export default function Footer() {
     return (
         <div className='footer mt-4'>
             <div className='container'>
-                <div className="footer__box d-flex justify-content-between mt-5">
+                <div className="footer__box flex-wrap d-flex justify-content-between mt-5">
                     <div className='footer__right'>
                         <h2 className='footer__title'>Ifimi</h2>
                         <p className='mt-4'> ما انواع مختلفی از معابر موجود داریم<br /> که اکثریت آنها دچار تغییر شده اند به<br /> نوعی با تزریق کلمات طنز باورپذیر. </p>
                     </div>
-                    <div className='footer__center d-flex'>
+                    <div className='footer__center flex-wrap d-flex'>
                         <div className='footer__list-box'>
                             <p className='fw-bold footer__list__caption'> موپلی  </p>
                             <ul className='footer__list'>

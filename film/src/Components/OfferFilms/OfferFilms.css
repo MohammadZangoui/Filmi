@@ -1,12 +1,12 @@
 .offerfilms {
     gap: 2rem;
     width: 21rem;
+    /* flex-grow: 1; */
     height: 100%;
     position: relative;
 }
 
 .offerfilms__item {
-    width: 20.5rem;
     overflow: hidden;
 }
 
@@ -57,4 +57,20 @@
     height: 2rem;
     left: 1rem;
     top: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .offerfilms{
+        flex-grow: 1;
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .offerfilms{
+        width: 14rem;
+    }
+    .offerfilms__play{
+        display: none;
+    }
 }

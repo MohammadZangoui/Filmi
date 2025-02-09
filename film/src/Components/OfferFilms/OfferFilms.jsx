@@ -12,13 +12,13 @@ export default function BoxFilm() {
         <>
             {
                 selector.map(data => (
-                    <Link className='text-decoration-none' to={'/movie-show'}>
-                        <div key={data.id} className='offerfilms'>
+                    <div key={data.id} className='offerfilms'>
+                        <Link className='text-decoration-none' to={'/movie-show'}>
                             <div className='offerfilms__item'>
                                 <div className='offerfilms__top overflow-hidden position-relative rounded-4'>
                                     <img className='offerfilms__img w-100 h-100 ' src={data.poster} alt="poster" />
                                     <span className='offerfilms__lmdb d-flex justify-content-center text-white align-items-center rounded'>{data.imdb_rating}<LiaStarSolid className='text-warning me-2' /></span>
-                                    <span className='offerfilms__play'><SiGradleplaypublisher className='offerfilms__icon' size={'9rem'} /></span>
+                                    <span className='offerfilms__play'><SiGradleplaypublisher className='offerfilms__icon' size={'8rem'} /></span>
                                 </div>
                                 <div className='offerfilms__bottom'>
                                     <p className='fw-bold offerfilms__bottom__title text-white'> {data.title} </p>
@@ -28,8 +28,8 @@ export default function BoxFilm() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Link>
+                        </Link>
+                    </div>
                 ))
             }
         </>

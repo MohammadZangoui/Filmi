@@ -1,0 +1,17 @@
+
+.formcomments__box{
+    background: #131722;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.form__input{
+    background: var(--body-bg);
+    padding: 1.3rem;
+    color: var(--white);
+    border: 1px solid var(--body-text-color);
+    border-radius: 1rem;
+    outline: none;
+    overflow: hidden;
+    width: 100%;
+}

@@ -7,7 +7,7 @@
     color: var(--theme-color);
     width: 4rem;
     height: 4rem;
-    background: #000;
+    background: var(--body-bg);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -16,4 +16,10 @@
 
 .copyright__list{
     margin: 0;
+}
+
+@media screen and (max-width: 530px) {
+    .copyright__list {
+        margin-top: 1rem;
+    }
 }
