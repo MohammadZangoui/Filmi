@@ -17,3 +17,10 @@
 .movie__eye__box{
     color: var(--body-text-color);
 }
+
+@media screen and (max-width: 480px) {
+    .movie__item{
+        padding: 0;
+        border: none;
+    }
+}

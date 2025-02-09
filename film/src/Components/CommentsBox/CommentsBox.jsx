@@ -9,8 +9,10 @@ export default function CommentsBox() {
                     <div className='d-flex align-items-center justify-content-between CommentsBox__title'>
                         <div className='d-flex me-4 align-items-center CommentsBox__doc'>
                             <img src="../public/img/com-1.jpg" className='CommentsBox__img' width={'55rem'} alt="prof" />
-                            <p className='ms-3 me-4'> رقیه اسدی </p>
-                            <p className=''> 1403/11/8 </p>
+                            <div className='comment__name d-flex'>
+                                <p className='ms-3 me-4'> رقیه اسدی </p>
+                                <p className=''> 1403/11/8 </p>
+                            </div>
                         </div>
                         <div className='CommentsBox__icon d-flex justify-content-center align-items-center'>
                             <RiArrowGoBackLine size={'2.3rem'} />

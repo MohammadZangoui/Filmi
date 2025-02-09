@@ -17,3 +17,12 @@
     border: 1px solid var(--theme-color);
     border-radius: 50%;
 }
+
+@media screen and (max-width: 480px) {
+    .comment__name{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}

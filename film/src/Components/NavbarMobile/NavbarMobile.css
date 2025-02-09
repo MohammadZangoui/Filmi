@@ -1,0 +1,16 @@
+.offcanvas.offcanvas-start{
+    background: #313541;
+}
+
+.accordion-button{
+    background: var(--body-bg) !important;
+    color: var(--white) !important;
+}
+
+.accordion-body{
+    background: #131722;
+}
+
+.btn-close{
+    color: var(--white) !important;
+}
