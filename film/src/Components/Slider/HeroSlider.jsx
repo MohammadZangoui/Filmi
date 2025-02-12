@@ -28,9 +28,9 @@ export default function HeroSlider() {
                     pagination={{ clickable: true }}
                     className='heroslier__swiper rounded-4'
                 >
-                    <SwiperSlide><img width={'100%'} height={'500px'} src="./public/img/slider/s1.jpg" alt="" /></SwiperSlide>
-                    <SwiperSlide><img width={'100%'} height={'500px'} src="./public/img/slider/slider-2.jpg" alt="" /></SwiperSlide>
-                    <SwiperSlide><img width={'100%'} height={'500px'} src="./public/img/slider/slider-3.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='slider__img' width={'100%'} height={'100%'} src="./img/slider/s1.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='slider__img' width={'100%'} height={'100%'} src="./img/slider/slider-2.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide><img className='slider__img' width={'100%'} height={'100%'} src="./img/slider/slider-3.jpg" alt="" /></SwiperSlide>
                 </Swiper>
             </div>
         </>

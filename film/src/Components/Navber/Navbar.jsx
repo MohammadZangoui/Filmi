@@ -23,7 +23,7 @@ export default function Navbar() {
             <div className='container'>
                 <div className='navbar__box w-100 py-4 d-flex justify-content-between align-items-center'>
                     <div>
-                        <img src="./public/img/logo.png" width={'175px'} alt="logo" />
+                        <img src="./img/logo.png" width={'175px'} alt="logo" />
                     </div>
                     <div className='navbar__list'>
                         <ul className=' d-flex gap-4'>

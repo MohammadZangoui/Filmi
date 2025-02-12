@@ -4,7 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { VscListSelection } from "react-icons/vsc";
-function Example() {
+export default function NavbarMobile() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -18,7 +18,7 @@ function Example() {
                     <Offcanvas.Title></Offcanvas.Title>
                 </Offcanvas.Header>
                 <div>
-                    <img width={'150rem'} className='me-3 mt-2 mb-2' src="./public/img/logo.png" alt="" />
+                    <img width={'150rem'} className='me-3 mt-2 mb-2' src="./img/logo.png" alt="logo" />
                 </div>
                 <Offcanvas.Body color='black'>
                     <Accordion defaultActiveKey="0">
@@ -134,5 +134,3 @@ function Example() {
         </>
     );
 }
-
-export default Example;

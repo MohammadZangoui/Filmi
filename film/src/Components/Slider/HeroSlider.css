@@ -1,3 +1,11 @@
-/* .heroslier__swiper__item{
-    width: 3rem !important;
-} */
+
+@media screen and (max-width: 700px) {
+    .heroslier__swiper{
+        height: 270px !important;
+    }
+}
+@media screen and (min-width: 700px) {
+    .heroslier__swiper{
+        height: 500px !important;
+    }
+}

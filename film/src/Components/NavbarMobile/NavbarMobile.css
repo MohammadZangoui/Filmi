@@ -14,3 +14,7 @@
 .btn-close{
     color: var(--white) !important;
 }
+
+.navmob-sub__link{
+    color: var(--white) !important;
+}

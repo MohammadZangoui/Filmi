@@ -46,12 +46,12 @@ export default function NewFrends() {
                         }}
                         className='mt-5'
                     >
-                        <SwiperSlide><a href="#"><img width={'171px'} src="./public/img/BestFrends/02.png" alt="" /></a></SwiperSlide>
-                        <SwiperSlide><a href="#"><img width={'171px'} src="./public/img/BestFrends/03.png" alt="" /></a></SwiperSlide>
-                        <SwiperSlide><a href="#"><img width={'171px'} src="./public/img/BestFrends/04.png" alt="" /></a></SwiperSlide>
-                        <SwiperSlide><a href="#"><img width={'171px'} src="./public/img/BestFrends/05.png" alt="" /></a></SwiperSlide>
-                        <SwiperSlide><a href="#"><img width={'171px'} src="./public/img/BestFrends/06.png" alt="" /></a></SwiperSlide>
-                        <SwiperSlide><a href="#"><img width={'171px'} src="./public/img/BestFrends/05.png" alt="" /></a></SwiperSlide>
+                        <SwiperSlide><a href="#"><img width={'171px'} src="./img/BestFrends/02.png" alt="ferend" /></a></SwiperSlide>
+                        <SwiperSlide><a href="#"><img width={'171px'} src="./img/BestFrends/03.png" alt="ferend" /></a></SwiperSlide>
+                        <SwiperSlide><a href="#"><img width={'171px'} src="./img/BestFrends/04.png" alt="ferend" /></a></SwiperSlide>
+                        <SwiperSlide><a href="#"><img width={'171px'} src="./img/BestFrends/05.png" alt="ferend" /></a></SwiperSlide>
+                        <SwiperSlide><a href="#"><img width={'171px'} src="./img/BestFrends/06.png" alt="ferend" /></a></SwiperSlide>
+                        <SwiperSlide><a href="#"><img width={'171px'} src="./img/BestFrends/05.png" alt="ferend" /></a></SwiperSlide>
                     </Swiper>
                 </div>
             </div>

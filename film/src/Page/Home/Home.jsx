@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Home.css"
 import HeroSlider from '../../Components/Slider/HeroSlider'
 import OffersFilms from '../../Components/OfferFilms/OfferFilms'
@@ -9,9 +9,13 @@ import { LuMonitorPlay } from "react-icons/lu";
 import { BsCollectionPlay } from "react-icons/bs";
 import BoxPricing from '../../Components/BoxPricing/BoxPricing';
 import NewFrends from '../../Components/NewFrends/NewFrends';
-import Copyright from '../../Components/Copyright/Copyright';
+import 'aos/dist/aos.css';
 import FullPlayFilms from '../../Components/FullPlayFilms/FullPlayFilms'
+import Aos from 'aos'
 export default function Home() {
+  useEffect(() => {
+    Aos.init()
+  },[])
   return (
     <>
       <div className='container'>
@@ -48,7 +52,7 @@ export default function Home() {
       <div className='choose'>
         <div className='container'>
           <div className='choose__box d-flex'>
-            <div className='choose__caption'>
+            <div data-aos="fade-up" className='choose__caption'>
               <div>
                 <p className='text-primary fw-bold display-6'> چرا ما را انتخاب کنید ؟ </p>
                 <p className='fw-bold display-4'> ما به رضایت <span className='text-primary fw-bold'> مشتریان </span> خود اهمیت <br /> می دهیم </p>
@@ -78,9 +82,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='choose__logo'>
+            <div data-aos="fade-left" className='choose__logo'>
               <div className='choose__logo__box-img'>
-                <img className='choose__logo__img w-100 h-100' src="/public/img/01_1.jpg" alt="choose img" />
+                <img className='choose__logo__img w-100 h-100' src="/img/01_1.jpg" alt="choose img" />
               </div>
             </div>
           </div>
@@ -94,7 +98,7 @@ export default function Home() {
               <p className='boxpricing__title fw-bold'>پلن های ما</p>
               <h3 className='display-4 fw-bold'>  پلن اشتراک خود را <span className='boxpricing__choice'>انتخاب کنید</span>  </h3>
             </div>
-            <div className='d-flex mt-5 gap-5 flex-wrap justify-content-between mt-5'>
+            <div className='d-flex mt-5 gap-5 flex-wrap justify-content-between mt-5' >
               <BoxPricing />
               <BoxPricing />
               <BoxPricing />
